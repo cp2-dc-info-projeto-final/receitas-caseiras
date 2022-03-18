@@ -1,27 +1,92 @@
 # Manual do Usuário
 
-Nullam vitae velit a eros dignissim bibendum id a enim. Vestibulum hendrerit nisl sed magna gravida, non elementum urna condimentum. Quisque porta tincidunt nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis at varius mauris. Quisque molestie ante imperdiet elit blandit, ac volutpat sem efficitur. Donec nec sem tempus, ullamcorper nisl non, blandit tortor. Etiam suscipit rutrum laoreet. Donec facilisis eros ultrices, venenatis quam nec, feugiat ante. Donec ante eros, consequat nec nibh vitae, porta vehicula orci. Duis nec eros et lorem malesuada sodales. Praesent auctor accumsan ipsum, et volutpat ex porttitor eu. Vestibulum facilisis elementum elit, hendrerit mollis velit pretium in. Curabitur tristique vel augue a sodales. Sed malesuada lacinia porttitor.
+Nesse documento compilamos o manual de usuário da rede social Instafood, uma rede social criada para a interação de pessoas com interesse na culinária.
 
 **Lista das Funcionalidades:**
 
- - [Funcionalidade X](#Funcionalidade-X)
- - [Funcionalidade Y](#Funcionalidade-Y)
- - [Funcionalidade Z](#Funcionalidade-Z)
+ - [Cadastro](#Cadastro)
+ - [Login](#Login)
+ - [Configurações de Conta](#Configurações-de-Conta)
+ - [Post](#Post)
+ - [Comentar](#Comentar)
+ - [Curtir](#Curtir)
+ - [Como se tornar administrador](#Como-se-tornar-um-administrador)
+ - [Privilegios do Administrador](#Privilegios-do-Administrador)
+ 
+## Cadastro
 
-## Funcionalidade X
+![cadastro](cadastro.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat molestie justo non tincidunt. Praesent tristique, elit convallis eleifend congue, nisl ex lobortis lorem, ac gravida tellus lacus eu enim. Aliquam urna turpis, convallis id turpis et, iaculis consequat nunc. Proin elit orci, imperdiet nec tristique nec, tincidunt ut nibh. Donec dignissim urna ut erat imperdiet aliquam. Vestibulum augue leo, pellentesque malesuada egestas quis, molestie at lacus. Donec rhoncus finibus lorem, accumsan interdum sapien facilisis sit amet. Integer odio magna, sodales at varius at, dapibus vitae ante. Sed ac ullamcorper ex. Ut in metus ipsum. Duis vulputate porta mi, id venenatis massa ornare vel. Nunc ornare malesuada elit sed feugiat.
+Na página de login, no canto superior direito, esta o botão de cadastro, ao  clicar nele é exibido um formulario aonde deve ser inserido o nome, o email, a senha e confirmar essa mesma senha, em seguida clicar no botão cadastrar no final do formulario.
 
-Aliquam in convallis quam, egestas consectetur felis. Integer in dolor sit amet neque volutpat faucibus ut porttitor libero. Morbi faucibus non purus nec finibus. Pellentesque lacus nunc, ultricies quis enim at, vehicula semper nibh. Ut eget erat blandit, porta nibh sit amet, facilisis felis. Aliquam vitae consequat nisi, ut vestibulum sapien. Sed ornare quis leo quis cursus. Vestibulum ut quam odio. Donec sit amet risus augue. Curabitur venenatis a tortor ac placerat.
+## Login
 
-## Funcionalidade Y
+![login](login.png)
 
-In vestibulum euismod orci, vitae mollis neque luctus vel. Aliquam erat volutpat. Pellentesque nulla elit, iaculis posuere interdum a, imperdiet sollicitudin dui. Morbi consectetur cursus dictum. Etiam vel feugiat tortor, non tempor nibh. Nam eu massa libero. Donec id eleifend justo, tempus consectetur augue. Phasellus porttitor ex leo. Proin efficitur ante vel tortor tempus ornare. Cras molestie, velit non laoreet lobortis, nisl metus volutpat augue, id dictum libero ipsum a mi. Quisque eget tristique felis.
+Na página de login é exibido um formulario com os campos e-mail e senha, ao preencher-los e clicar em login, o usuario será redirecionada para a página de perfil, já para o logout é preciso clicar no botão de menu, localizado no canto superior direito da página, depois clicar em logout.
 
-Donec auctor a orci a semper. Nunc consequat dui vel eros faucibus molestie. Praesent euismod purus nec justo iaculis varius. Integer vehicula ac metus at ultricies. Maecenas pulvinar neque sed est sollicitudin, vitae dignissim magna posuere. Sed consectetur, mi nec bibendum sodales, urna sem aliquam leo, mollis vulputate justo leo vel nunc. Sed lacinia ipsum lacus, ultrices iaculis tellus efficitur at. Proin consectetur orci ac egestas aliquam. Proin dignissim euismod turpis sollicitudin interdum. Mauris pellentesque, orci non accumsan lobortis, nunc felis hendrerit tortor, non rutrum risus nisl id erat.
+## Configurações de Conta
 
-## Funcionalidade Z
+![nome](nome.png)
 
-Sed consequat, diam in imperdiet fringilla, magna metus vehicula ipsum, eu tincidunt massa dolor eget lorem. Integer pellentesque in massa in eleifend. Phasellus a interdum enim. Nullam malesuada nulla eu mi vestibulum imperdiet. Maecenas diam dolor, commodo eget commodo at, congue in libero. Morbi non erat enim. Nunc faucibus lacus urna. Aliquam erat volutpat. Aliquam ex nunc, dictum vel libero sit amet, varius pulvinar risus. Aenean tempus magna at nulla elementum, vel feugiat turpis sodales. Vestibulum viverra congue nibh sed tempor. Morbi faucibus rhoncus dictum. Vestibulum rutrum, nisi id porttitor posuere, purus leo accumsan turpis, sit amet rutrum nulla turpis sit amet ex. Sed ultricies pharetra libero, sed tempor tellus hendrerit eget. Maecenas nibh sem, accumsan ullamcorper felis sed, pharetra semper dolor. Pellentesque ornare lorem eu condimentum tincidunt.
+No menu de configurações, localizado no canto superior direito da página de perfil, está a opção configuração de conta, ao clicar nessa opção o usuário é redirecionado a outra página aonde se encontra o formulario de alteração do nome de usuário e alteração de senha, para mudar o nome basta escolher um novo nome e preencher ambos os campos com o nome escolhido
 
-Nam lacinia gravida velit et ultricies. Quisque blandit a ligula at tincidunt. Vestibulum id odio a lectus maximus tempor non in augue. Duis vulputate dui vitae lacus ornare, et eleifend erat cursus. Mauris viverra, massa vel eleifend tempus, nunc justo tempus quam, ac sollicitudin lorem arcu vitae magna. Aliquam eleifend diam neque, at sagittis eros scelerisque vitae. Sed convallis iaculis tempor. Pellentesque in varius velit. Cras ut risus at ligula tristique tincidunt ac a risus. Morbi egestas tincidunt nunc, molestie aliquam nisl imperdiet egestas. Morbi hendrerit augue ac accumsan posuere. Sed a sodales elit. Nullam pharetra rhoncus arcu, eget pharetra massa egestas ut. Sed accumsan auctor dictum. Duis leo enim, pulvinar ut enim a, tempor aliquam dui. Nunc aliquet quam justo, sed aliquet justo tincidunt sed.
+![senha](senha.png)
+
+para modificar sua senha o usuário deve selecionar a opção mudar senha, em seguida inserir sua senha atual junto com a nova senha e , depois confirmar aquela senha.
+
+## Postar
+
+![postar](postar.png)
+
+Para postar no Instafood o usuário deve primeiro inserir uma imagem no formato JPG,JPEG, PNG ou GIF qualquer outro formato não é valido e acarreta uma mensagem de erro caso tente ser postado, nas imagens podem ser inclusas legendas, mas não são obrigatorias.
+
+![editar](editar.png)
+
+para realizar a edição de um post o usuário deve clicar no botão de opções presente na parte superior direita da postagem e escolher a opção editar post, o usuario será redirecionado para a aréa de edição, aonde ele poderá alterar a legenda da postagem livremente,já para excluir o post basta escolher a opção excluir post, no botão de opção.
+
+## Curtir
+
+![curtir](curtir.jpg)
+
+Para curtir uma postagem o usuário deverá clicar no ícone curtir, presente na parte inferior esquerda da postagem
+
+## Comentar
+
+![comentar](comentar.jpg)
+
+Para comentar o usuário deve digitar no campo presente na parte inferior da postagem e para visualizar o usuário deve clicar no botão comentarios
+
+![ver](ver.jpg)
+
+já para editar um comentario o usuário deve apertar o botão comentarios 
+
+![ex](ex.png)
+
+em seguida escolher a opção editar, o sistema então vai redirecionar o usuário para uma área de edição, aonde ele poderá alterar o comentario livremente, já para excluir o post basta escolher a opção excluir no comentario.
+
+
+
+## Como se tornar um Administrador
+
+![adm](adm.png)
+
+No Instfood para se tornar um administrador é nescessario que um administrador te promova
+
+
+
+## Privilegios do Administrador
+
+No instafood o as funções adicionadas obtidas depois de se tornar um administrador são:
+
+![admin](admin.png)
+![listar](listar.png)
+
+a listagem de todos os usuário presentes no Instafood naquele momento
+
+![aexcluir](aexcluir.png)
+
+e a exclusão de qualquer usuário listado no banco de dados
+
+
+
