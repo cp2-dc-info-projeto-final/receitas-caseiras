@@ -33,7 +33,12 @@
                     </div>
 <?php } ?>
         </div>
-    <?php } 
+    <?php }
+        
+        if($linhas == 0){
+            echo "<h3>Não há resultados para sua busca.</h3>";
+        }
+        
     mysqli_close($mysqli);
     ?>
     </div>
