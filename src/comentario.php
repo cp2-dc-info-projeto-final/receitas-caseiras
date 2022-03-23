@@ -1,5 +1,5 @@
 <?php
-    include "autentica.inc";
+    include "_layout/header.php";
     include "conecta_mysql.inc";
 
     $idp = $_POST["idp"];
@@ -9,17 +9,17 @@
     $erro = 0;
 
     if (strlen($texto) > 200){
-        echo "Texto maior que 200 caracteres.";
+        echo "<h1>Texto maior que 200 caracteres.</h1>";
         $erro = 1;
     }
 
     if (empty($texto)){
-        echo "Postagem vazia!";
+        echo "<h1>Postagem vazia!</h1>";
         $erro = 1;
     }
 
     if($erro == 1){
-        echo "<p><a href='pagpost.php?idp=$idp'>Retornar</a></p>";
+        echo "<h4><a href='pagpost.php?idp=$idp'>Retornar</a></h4>";
     }
 
     if ($erro == 0){
