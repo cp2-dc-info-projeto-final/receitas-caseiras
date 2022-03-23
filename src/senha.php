@@ -1,7 +1,10 @@
 <?php
-    include "autentica.inc";
+    include "_layout/header.php";
     include "conecta_mysql.inc";
+?>
 
+<div style="text-align: center; width: 40%; margin: 10% auto;">
+<?php
     $id = $_POST["id"];
     $antsenha = $_POST["antsenha"];
     $novasenha = $_POST["novasenha"];
@@ -10,28 +13,28 @@
     $erro = 0;
 
     if (empty($antsenha) || empty($novasenha) || empty($csenha)){
-        echo "Preencha todos os campos. <br>";
+        echo "<h1>Preencha todos os campos.</h1><br>";
         $erro = 1;
     }
     if(!password_verify($antsenha, $usuario["senha"])){
-        echo "A senha atual está errada.<br>";
+        echo "<h1>A senha atual está errada.</h1><br>";
         $erro = 1;
     }
     if(strlen($novasenha) < 5 OR strlen($novasenha) > 20){
-        echo "A senha deve possuir no mínimo 5 e no máximo 20 caracteres.<br>";
+        echo "<h1>A senha deve possuir no mínimo 5 e no máximo 20 caracteres.</h1><br>";
         $erro = 1;
     }
     if ($novasenha != $csenha){
-        echo "As senhas são diferentes. <br>";
+        echo "<h1>As senhas são diferentes.</h1><br>";
         $erro = 1;
     }
     if($usuario["nome"] == $novasenha){
-        echo "O nome e a senha devem ser diferentes.<br>";
+        echo "<h1>O nome e a senha devem ser diferentes.</h1><br>";
         $erro = 1;
     }
 
     if($erro == 1){
-        echo "<p><a href='alterasenha.php'>Alterar senha</a></p>";
+        echo "<h4><a href='alterasenha.php'>Alterar senha</a></h4>";
     }
 
     if ($erro == 0){
@@ -43,3 +46,4 @@
         header("Location: index.php");
     }
 ?>
+</div>
