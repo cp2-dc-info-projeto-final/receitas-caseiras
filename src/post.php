@@ -1,5 +1,5 @@
 <?php
-    include "autentica.inc";
+    include "_layout/header.php";
     include "conecta_mysql.inc";
     include "upload.php";
 
@@ -10,23 +10,23 @@
     $erro = 0;
 
     if (strlen($texto) > 400){
-        echo "Texto maior que 400 caracteres.";
-        echo "<p><a href='index.php'>Página inicial</a></p>";
+        echo "<h1>Texto maior que 400 caracteres.</h1><br>";
+        echo "<h4><a href='index.php'>Página inicial</a></h4>";
         $erro = 1;
     }
 
     if ($img["size"] != 0){
         $caminho_img = upload_imagem($img);
         if($caminho_img === false){
-            echo "Não foi possível carregar a imagem corretamente.<br>";
-            echo "<p><a href='index.php'>Página inicial</a></p>";
+            echo "<h1>Não foi possível carregar a imagem corretamente.</h1><br>";
+            echo "<h4><a href='index.php'>Página inicial</a></h4>";
             $erro = 1;
         }
     }
 
     if (empty($texto) && empty($caminho_img)){
-        echo "Postagem vazia!";
-        echo "<p><a href='index.php'>Página inicial</a></p>";
+        echo "<h1>Postagem vazia!</h1><br>";
+        echo "<h4><a href='index.php'>Página inicial</a></h4>";
         $erro = 1;
     }
 
